@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Onearth",
+    "slug": "onearth-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1F3368"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onearth.onearth",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCUpMgQQHWHnmvY0CHM7BSFBcbJ3uZvPd4"
+      }
+    },
+    "android": {
+      "package": "com.onearth.onearth",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1F3368"
+      },
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyBzdW1OCh0yJSAI7vf2zWAd50vnUCHmApQ" }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
